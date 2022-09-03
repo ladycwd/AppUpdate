@@ -32,8 +32,8 @@ public class UpdateWrapper {
     private CheckUpdateTask.Callback mCallback;
     private int mNotificationIcon;
     private long mTime;
-    private boolean mIsShowToast = true;
-    private boolean mIsShowNetworkErrorToast = true;
+    private boolean mIsShowToast = false;
+    private boolean mIsShowNetworkErrorToast = false;
     private boolean mIsShowBackgroundDownload = true;
     private boolean mIsPost = false;
     private Map<String, String> mPostParams;
